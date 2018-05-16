@@ -1,0 +1,26 @@
+{
+  "name": "box",
+  "version": "1.0.0",
+  "description": "Simple server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemeeSenin/box.git"
+  },
+  "author": "ArtemeeSenin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemeeSenin/box/issues"
+  },
+  "homepage": "https://github.com/ArtemeeSenin/box#readme",
+  "dependencies": {
+    "mongodb": "^3.1.0-beta4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
