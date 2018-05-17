@@ -16,7 +16,7 @@ http.createServer(function(req, res){
 				console.log(fruit['name'] + '\n');
 
 			}
-			res.end();
+			res.end('<small>Build by Travis CI</small>');
 
 		})
 		db.close();
