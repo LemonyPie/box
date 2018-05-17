@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "10"
+clone_folder: /data/www # выбираем локальную директорию для клонирования
+shallow_clone: true
 cache:
   directories:
     - "node_modules"
