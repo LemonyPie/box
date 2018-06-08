@@ -1,0 +1,14 @@
+[DEFAULT]
+maxretry = 3
+bantime = 86400
+action = firewallcmd-ipset
+
+[ssh]
+enabled = true
+port = ssh
+filter = sshd
+action = iptables[name=ssh, port=ssh, protocol=tcp]
+logpath = /var/log/auth.log
+maxretry = 3
+findtime = 600
+
