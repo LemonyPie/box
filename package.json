@@ -4,7 +4,9 @@
   "description": "Simple server",
   "main": "server.js",
   "scripts": {
-    "test": "echo allright"
+    "test": "echo allright",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,12 @@
   },
   "homepage": "https://github.com/ArtemeeSenin/box#readme",
   "dependencies": {
-    "mongodb": "^3.1.0-beta4",
-    "pm2": "^2.10.3"
+    "mongodb": "^3.1.13",
+    "pm2": "^4.3.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "nodemon": "^1.17.4"
-  }
+  },
+  "snyk": true
 }
